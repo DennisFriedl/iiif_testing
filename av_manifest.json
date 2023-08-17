@@ -30,7 +30,7 @@
                   "format": "video/mp4",
                   "width": 1280,
                   "height": 720,
-                  "duration": 100
+                  "duration": 360
               }
           },                            
           {
@@ -44,7 +44,7 @@
                   "format": "video/mp4",
                   "width": 1280,
                   "height": 720,
-                  "duration": 100
+                  "duration": 360
               }
           },
           {
@@ -58,7 +58,7 @@
                   "format": "video/mp4",
                   "width": 1280,
                   "height": 720,
-                  "duration": 100
+                  "duration": 360
               }
           }
           ]
