@@ -4,13 +4,15 @@
   "type": "Manifest",
   "label": {
     "en": [
-      "Video Example 3"
+      "Video Testing"
     ]
   },
   "items": [
     {
       "id": "https://digirati-co-uk.github.io/iiif-av-bl/data/bl/02_gapless_video/canvas/1",
       "type": "Canvas",
+      "width": 1280,
+      "height": 720,
       "duration": 300,
       "items": [
         {
@@ -21,34 +23,43 @@
               "id": "https://digirati-co-uk.github.io/iiif-av-bl/data/bl/02_gapless_video/content/anno/1",
               "type": "Annotation",
               "motivation": "painting",
+              "target": "https://digirati-co-uk.github.io/iiif-av-bl/data/bl/02_gapless_video/canvas/1#t=0,100",
               "body": {
                   "id": "https://digirati-co-uk.github.io/iiif-av-bl/data/media/sample-6m-blue.mp4",
                   "type": "Video",
-                  "format": "video/mp4"
-              },
-              "target": "https://digirati-co-uk.github.io/iiif-av-bl/data/bl/02_gapless_video/canvas/1#t=0,100"
+                  "format": "video/mp4",
+                  "width": 1280,
+                  "height": 720,
+                  "duration": 100
+              }
           },                            
           {
               "id": "https://digirati-co-uk.github.io/iiif-av-bl/data/bl/02_gapless_video/content/anno/2",
               "type": "Annotation",
               "motivation": "painting",
+              "target": "https://digirati-co-uk.github.io/iiif-av-bl/data/bl/02_gapless_video/canvas/1#t=100,200",
               "body": {
                   "id": "https://digirati-co-uk.github.io/iiif-av-bl/data/media/sample-6m-green.mp4",
                   "type": "Video",
-                  "format": "video/mp4"
-              },
-              "target": "https://digirati-co-uk.github.io/iiif-av-bl/data/bl/02_gapless_video/canvas/1#t=100,200"
+                  "format": "video/mp4",
+                  "width": 1280,
+                  "height": 720,
+                  "duration": 100
+              }
           },
           {
               "id": "https://digirati-co-uk.github.io/iiif-av-bl/data/bl/02_gapless_video/content/anno/3",
               "type": "Annotation",
               "motivation": "painting",
+              "target": "https://digirati-co-uk.github.io/iiif-av-bl/data/bl/02_gapless_video/canvas/1#t=200,300",
               "body": {
                   "id": "https://digirati-co-uk.github.io/iiif-av-bl/data/media/sample-6m-orange.mp4",
                   "type": "Video",
-                  "format": "video/mp4"
-              },
-              "target": "https://digirati-co-uk.github.io/iiif-av-bl/data/bl/02_gapless_video/canvas/1#t=200,300"
+                  "format": "video/mp4",
+                  "width": 1280,
+                  "height": 720,
+                  "duration": 100
+              }
           }
           ]
         }
